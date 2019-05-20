@@ -1,0 +1,25 @@
+----------Test1(Add, Get and Remove Vehicles)----------
+PASSED
+----------Test2(Scheduling jobs to a Land Vehicle(Van)----------
+Job 700.00km to v2 (should schedule) = scheduled
+Job 500.00km to v2 (should reject) = rejected
+Job 100.00km to v2 (should schedule) = scheduled
+Job 300.00km to v2 (should reject) = rejected
+PASSED
+----------Test3(Scheduling jobs to an Aircraft----------
+Job 4000.00km to a3 (should schedule) = scheduled
+Job 5000.00km to a3 (should schedule) = scheduled
+Job 3000.00km to a3 (should reject) = rejected
+Job 500.00km to a3 (should schedule) = scheduled
+Job 3000.00km to a3 (should reject) = rejected
+PASSED
+----------Test4 (Servicing Land Vehicle(Van) and Aircraft)----------
+Job 400.00km to v1 (should schedule) = scheduled
+Job 400.00km to v1 (should reject) = rejected
+Job 400.00km to v1 (should schedule) = scheduled
+Job 15000.00km to a2 (should schedule) = scheduled
+Job 15000.00km to a2 (should reject) = rejected
+Job 15000.00km to a2 (should schedule) = scheduled
+PASSED
+
+AGGREGATE RESULT: ALL TESTS PASSED!

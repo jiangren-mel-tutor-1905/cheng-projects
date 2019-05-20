@@ -1,0 +1,39 @@
+*Printing Information for Van : v2
+Van: Reg_Number: v2, Make: Volkswagen, Model: Routan S, Year: 2009
+Odometer: 0.00km, Last Service: 0.00km, Service Interval: 1000.00km
+
+*Printing Information for Truck : t2
+Truck: Reg_Number: t2, Make: Peterbilt, Model: 386, Year: 2005, Capacity: 3500t
+Service History: Odometer: 0.00km, Last Service: 0.00km, Service Interval: 2000.00km
+
+*Displaying All Vehicles...
+Van: Reg_Number: v1, Make: Toyota, Model: Sienna, Year: 1998
+Odometer: 0.00km, Last Service: 0.00km, Service Interval: 500.00km
+Van: Reg_Number: v2, Make: Volkswagen, Model: Routan S, Year: 2009
+Odometer: 0.00km, Last Service: 0.00km, Service Interval: 1000.00km
+Truck: Reg_Number: t1, Make: Peterbilt, Model: 379 , Year: 1990, Capacity: 3000t
+Service History: Odometer: 0.00km, Last Service: 0.00km, Service Interval: 2000.00km
+Truck: Reg_Number: t2, Make: Peterbilt, Model: 386, Year: 2005, Capacity: 3500t
+Service History: Odometer: 0.00km, Last Service: 0.00km, Service Interval: 2000.00km
+
+*Scheduling...
+Job 100km to v2 (should schedule) = scheduled
+Job 600km to v2 (should schedule) = scheduled
+Job 500km to v2 (should reject) = rejected
+Job 100km to v2 (should schedule) = scheduled
+Job 300km to v2 (should reject) = rejected
+
+*Vehicle Information for v2 (After Jobs Scheduled)...
+Van: Reg_Number: v2, Make: Volkswagen, Model: Routan S, Year: 2009
+Odometer: 800.00km, Last Service: 0.00km, Service Interval: 1000.00km
+
+*Servicing Vehicle v2...
+Van: Reg_Number: v2, Make: Volkswagen, Model: Routan S, Year: 2009
+Odometer: 800.00km, Last Service: 800.00km, Service Interval: 1000.00km
+Job 990km to v2 (should schedule) = scheduled
+
+*Displaying All Scheduled Jobs
+ID: 0, Distance: 100.00km, Cost: $90.00, Expense: $60.00, Profit: $30.00
+ID: 1, Distance: 600.00km, Cost: $540.00, Expense: $360.00, Profit: $180.00
+ID: 3, Distance: 100.00km, Cost: $90.00, Expense: $60.00, Profit: $30.00
+ID: 5, Distance: 990.00km, Cost: $891.00, Expense: $594.00, Profit: $297.00

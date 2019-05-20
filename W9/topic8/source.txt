@@ -1,0 +1,6 @@
+Some text in a file
+That we can 
+Read
+And
+Write
+Again and again

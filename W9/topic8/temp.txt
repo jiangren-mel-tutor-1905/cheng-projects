@@ -1,0 +1,2 @@
+a	home	20
+b	work	30
